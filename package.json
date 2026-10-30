@@ -1,0 +1,26 @@
+{
+  "name": "heictools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private, local HEIC to JPG conversion on GitHub Pages",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "playwright test"
+  },
+  "dependencies": {
+    "heic-to": "1.6.7",
+    "jszip": "3.10.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.1",
+    "@playwright/test": "1.64.1",
+    "esbuild": "0.28.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
