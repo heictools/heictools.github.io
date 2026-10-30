@@ -16,7 +16,7 @@
     "jszip": "3.10.2"
   },
   "devDependencies": {
-    "@axe-core/playwright": "4.11.1",
+    "@axe-core/playwright": "4.14.0",
     "@playwright/test": "1.64.1",
     "esbuild": "0.28.2"
   },
